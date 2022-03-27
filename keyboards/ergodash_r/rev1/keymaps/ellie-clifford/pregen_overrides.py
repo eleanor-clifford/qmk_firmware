@@ -47,9 +47,11 @@ overrides += [
 		# results in " since shift is pressed
 		"ko_make_with_layers(MOD_MASK_SHIFT,UK_QUOT, UK_2, 1<<_NORMAL)",
 	]
-mods.append(f"override{len(overrides)-3}.suppressed_mods = 0;")
-mods.append(f"override{len(overrides)-2}.suppressed_mods = 0;")
-mods.append(f"override{len(overrides)-1}.suppressed_mods = 0;")
+mods += [
+		f"override{len(overrides)-3}.suppressed_mods = 0;",
+		f"override{len(overrides)-2}.suppressed_mods = 0;",
+		f"override{len(overrides)-1}.suppressed_mods = 0;",
+	]
 
 print('#include QMK_KEYBOARD_H')
 print('#define _NORMAL 0')

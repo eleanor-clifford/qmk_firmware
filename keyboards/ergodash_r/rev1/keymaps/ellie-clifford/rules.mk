@@ -2,7 +2,6 @@
 LTO_ENABLE = yes
 CONSOLE_ENABLE = yes
 COMMAND_ENABLE = no
-EXTRAKEY_ENABLE = no
 
 # hw features
 AUDIO_ENABLE = no
@@ -14,3 +13,4 @@ MOUSEKEY_ENABLE = yes # scroll
 # fw features
 KEY_OVERRIDE_ENABLE = yes
 DYNAMIC_MACRO_ENABLE = yes
+EXTRAKEY_ENABLE = yes

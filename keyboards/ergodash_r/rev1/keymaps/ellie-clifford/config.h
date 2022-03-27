@@ -34,7 +34,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define ENCODERS_PAD_A { C6 }
 #define ENCODERS_PAD_B { B6 }
-#define ENCODER_RESOLUTIONS { 1 }
+#define ENCODER_RESOLUTIONS { 2 }
 #define TAPPING_TOGGLE 2
 
 // Optimisation
@@ -48,3 +48,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define SPLIT_LAYER_STATE_ENABLE
 #define RGBLIGHT_EFFECT_STATIC_GRADIENT
 #define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_STATIC_GRADIENT
+
+#define MK_3_SPEED
+#define MK_C_OFFSET_0 10
+#define MK_C_OFFSET_1 50
+#define MK_C_OFFSET_2 100
