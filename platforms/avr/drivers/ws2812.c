@@ -2,7 +2,7 @@
  * light weight WS2812 lib V2.0b
  *
  * Controls WS2811/WS2812/WS2812B RGB-LEDs
- * Author: Tim (cpldcpu@gmail.com)
+ * Author: Ellie (cpldcpu@gmail.com)
  *
  * Jan 18th, 2014  v2.0b Initial Version
  * Nov 29th, 2015  v2.3  Added SK6812RGBW support
@@ -20,10 +20,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-#include "ws2812.h"
 #include <avr/interrupt.h>
 #include <avr/io.h>
 #include <util/delay.h>
+#include "ws2812.h"
+#include "pin_defs.h"
 
 #define pinmask(pin) (_BV((pin)&0xF))
 
